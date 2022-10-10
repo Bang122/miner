@@ -6,9 +6,9 @@ Rem #################################
 Rem ## Begin of user-editable part ##
 Rem #################################
 
-set "POOL=eth.2miners.com:2020"
-set "POOL2=eth.2miners.com:2020" 
-set "WALLET=0x155da78b788ab54bea1340c10a5422a8ae88142f.lolMinerWorker"										
+set "POOL=us2.ethermine.org:4444"
+set "POOL2=us2.ethermine.org:4444" 
+set "WALLET=0x1fe1f36b2ecA563c32EEE799d17226Fd8C443CD1.lolMinerWorker"										
 
 set "EXTRAPARAMETERS="
 
